@@ -1,0 +1,3 @@
+mono "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Roslyn/csc.exe" /noconfig /nowarn:1701,1702,2008 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:DEBUG /errorendlocation /preferreduilang:zh-CN /highentropyva+ /reference:/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/4.7.2-api/mscorlib.dll /reference:/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/4.7.2-api/System.Core.dll /reference:/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/4.7.2-api/System.dll /debug+ /debug:full /optimize- /out:"a.exe" /subsystemversion:6.00 /target:exe /utf8output /langversion:7.3 "$*"
+mono a.exe
+rm a.exe a.pdb

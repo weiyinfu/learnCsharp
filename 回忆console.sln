@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "回忆console", "回忆console\回忆console.csproj", "{8258673A-00FF-4BE5-A203-8E54D091E409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8258673A-00FF-4BE5-A203-8E54D091E409}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8258673A-00FF-4BE5-A203-8E54D091E409}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8258673A-00FF-4BE5-A203-8E54D091E409}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8258673A-00FF-4BE5-A203-8E54D091E409}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF59F246-BFE2-44B1-991A-F18B9394C720}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,74 @@
+using System;
+
+class Identifier
+{
+    public static void run()
+    {
+        var @x = 3; //标志符可以是at开头
+        var @if = "hello";
+        Console.WriteLine(@x + @if);
+        // byte x = 123;//不能再定义x，因为与@x冲突
+        byte @byte = 13;
+        char @char = 'c';
+        decimal @decimal = 1 << 126; //128bit
+        double @double = 3.0;
+        float @float = 3f;
+        sbyte @sbyte = 13; //有符号byte
+        uint @uint;
+        UInt32 @uint32;
+        UInt64 @uint64;
+        ulong @ulong;
+        Decimal @Decimal;
+
+        //一切皆object
+        Object o = 100;
+        //动态类型
+        dynamic any = 3;
+        any = "hello";
+        //字符串类型
+        String s = "hello";
+        string ss = "hello";
+        //多行字符串
+        string sss = @"天下大势
+为我所控";
+        sss = $"{s}{sss}"; //直接拼串
+        Console.WriteLine($"{s}{sss}{@double}");
+
+        IntPtr @intPtr;
+        //在使用unsafe的情况下可以使用指针
+        unsafe
+        {
+            int* intptr;
+        }
+
+
+        //常量定义
+        int num = 212;
+        uint numUint = 123u;
+        long numLong = 0xFee; //十六进制
+        long numLong2 = 0xFEe; //十六进制
+        long numLong3 = 1234l; //推荐使用大写的L
+        numLong3 = 1234L;
+        num = 023; //八进制
+        num = 0b011; //二进制
+        @float = 3.13f;
+        @float = .13f;
+        @double = 0.1e13;
+        @double = 1E-9; //E大小写都行
+
+        //定义常量
+        const int num4 = 10;
+
+        //可空数据类型
+        int? num5 = null;
+        int? num6 = 45;
+        double? num7 = new double?();
+        double? num8 = 3.14157;
+        num8 = num6 ?? 5.34; //如果num6为空则采用第二个值
+        num8 = num6 == null ? 5.34 : (double) num6;
+
+        char[] aa = {'a', 'b', 'c'};
+        string ssss = new string(aa);
+        ssss = String.Join(s, ss, sss);
+    }
+}

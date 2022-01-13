@@ -51,8 +51,21 @@
         <Compile Include="06-结构体.cs" />
         <Compile Include="07-枚举.cs" />
         <Compile Include="08-类.cs" />
+        <Compile Include="09-下标运算符重载.cs" />
         <Compile Include="09-运算符重载.cs" />
         <Compile Include="10-命名空间.cs" />
+        <Compile Include="11-预处理器指令.cs" />
+        <Compile Include="13-正则表达式.cs" />
+        <Compile Include="14-StackTrace.cs" />
+        <Compile Include="15-文件.cs" />
+        <Compile Include="20-Attribute.cs" />
+        <Compile Include="25-自定义Attribute.cs" />
+        <Compile Include="30-property.cs" />
+        <Compile Include="35-函数指针delegate.cs" />
+        <Compile Include="38-事件.cs" />
+        <Compile Include="40-集合.cs" />
+        <Compile Include="45-泛型.cs" />
+        <Compile Include="50-unsafe.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

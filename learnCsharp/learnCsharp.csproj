@@ -8,8 +8,8 @@
         <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>TestProject1</RootNamespace>
-        <AssemblyName>TestProject1</AssemblyName>
+        <RootNamespace>learnCsharp</RootNamespace>
+        <AssemblyName>learnCsharp</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -46,6 +46,7 @@
         <Compile Include="01-打印小九九.cs" />
         <Compile Include="02-快排.cs" />
         <Compile Include="03-标志符和数据类型.cs" />
+        <Compile Include="04-数组类型.cs" />
         <Compile Include="04-类型转换.cs" />
         <Compile Include="05-函数.cs" />
         <Compile Include="06-结构体.cs" />
@@ -64,8 +65,14 @@
         <Compile Include="35-函数指针delegate.cs" />
         <Compile Include="38-事件.cs" />
         <Compile Include="40-集合.cs" />
+        <Compile Include="45-game泛型.cs" />
         <Compile Include="45-泛型.cs" />
         <Compile Include="50-unsafe.cs" />
+        <Compile Include="54-命令行.cs" />
+        <Compile Include="58-多线程.cs" />
+        <Compile Include="60-async和await.cs" />
+        <Compile Include="63-async和await多个.cs" />
+        <Compile Include="65-TaskCompletionSource.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

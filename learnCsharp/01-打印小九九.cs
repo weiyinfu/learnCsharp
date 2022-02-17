@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace TestProject1
+namespace learnCsharp
 {
 
     [TestFixture]

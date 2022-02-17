@@ -8,17 +8,32 @@ class Identifier
         var @if = "hello";
         Console.WriteLine(@x + @if);
         // byte x = 123;//不能再定义x，因为与@x冲突
+        //有符号整数系列
+        sbyte @sbyte = 13; //有符号byte
+        short @short; //16bit有符号整数
+        int @int; //32bit有符号整数
+        long @long; //64bit有符号整数
+        //无符号整数系列
         byte @byte = 13;
+        ushort @ushort;
+        uint @uint; //32bit无符号整数
+        ulong @ulong; //64bit无符号整数
+
+
+        //另一种整数写法
+        UInt16 @Uint16;
+        Int16 @Int16;
+        UInt32 @uint32;
+        Int32 @Int32;
+        UInt64 @uint64;
+        Int64 @Int64;
+        Decimal @Decimal;
+
         char @char = 'c';
-        decimal @decimal = 1 << 126; //128bit
         double @double = 3.0;
         float @float = 3f;
-        sbyte @sbyte = 13; //有符号byte
-        uint @uint;
-        UInt32 @uint32;
-        UInt64 @uint64;
-        ulong @ulong;
-        Decimal @Decimal;
+        decimal @decimal = 1 << 128; //128位高精度浮点数
+
 
         //一切皆object
         Object o = 100;
@@ -47,7 +62,7 @@ class Identifier
         uint numUint = 123u;
         long numLong = 0xFee; //十六进制
         long numLong2 = 0xFEe; //十六进制
-        long numLong3 = 1234l; //推荐使用大写的L
+        long numLong3 = 1234l; //推荐使用大写的L，因为小写的l容易跟1混淆
         numLong3 = 1234L;
         num = 023; //八进制
         num = 0b011; //二进制
@@ -70,5 +85,8 @@ class Identifier
         char[] aa = {'a', 'b', 'c'};
         string ssss = new string(aa);
         ssss = String.Join(s, ss, sss);
+
+        //C#支持元组类型
+        var position = (1, 2, 3);
     }
 }

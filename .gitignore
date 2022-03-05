@@ -1,0 +1,15 @@
+.idea/
+node_modules/
+.pynb_checkpoints
+*.iml
+.vscode/
+.vs/
+.DS_Store
+__pycache__/
+
+
+obj/
+bin/
+package-lock.json
+yarn.lock
+*.lock

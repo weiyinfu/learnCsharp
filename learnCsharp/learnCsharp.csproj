@@ -65,7 +65,6 @@
         <Compile Include="35-函数指针delegate.cs" />
         <Compile Include="38-事件.cs" />
         <Compile Include="40-集合.cs" />
-        <Compile Include="45-game泛型.cs" />
         <Compile Include="45-泛型.cs" />
         <Compile Include="50-unsafe.cs" />
         <Compile Include="54-命令行.cs" />

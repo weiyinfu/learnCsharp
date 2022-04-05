@@ -51,6 +51,25 @@ class UseClass
         }
     }
 
+    //使用属性和构造函数
+    public class Point
+    {
+        public int X { get; }
+        public int Y { get; }
+
+        public Point(int x, int y) => (X, Y) = (x, y);
+    }
+
+//使用泛型
+    public class Pair<TFirst, TSecond>
+    {
+        public TFirst First { get; }
+        public TSecond Second { get; }
+
+        public Pair(TFirst first, TSecond second) =>
+            (First, Second) = (first, second);
+    }
+
     public static void main()
     {
         User u = new User();

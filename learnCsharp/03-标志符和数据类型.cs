@@ -88,5 +88,8 @@ class Identifier
 
         //C#支持元组类型
         var position = (1, 2, 3);
+        //使用元祖实现匿名结构体的效果
+        (double Sum, int Count) t2 = (4.5, 3);
+        Console.WriteLine($"Sum of {t2.Count} elements is {t2.Sum}.");
     }
 }

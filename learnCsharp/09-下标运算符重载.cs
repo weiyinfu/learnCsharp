@@ -1,7 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+/**
+ * C#和Java都抛弃了复杂的C++运算符重载，但是C#保留了下标运算符重载，并给它
+ * 另取了一个名字叫做：索引器。
+ *
+ */
 class Users
 {
     private List<string> users;
